@@ -4,6 +4,8 @@ import { twMerge } from "tailwind-merge"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { A11y, Autoplay, Scrollbar, EffectFade, EffectCreative } from "swiper/modules"
 import { Typewriter } from "react-simple-typewriter"
+import Link from "next/link"
+import CustomButton from "@components/CustomButton"
 
 
 function HeroSection({ className = "" }) {
@@ -34,7 +36,7 @@ function HeroSection({ className = "" }) {
 
 	return (
 		<div
-			className={twMerge("h-[80vh] top-0 w-screen relative", className)}>
+			className={twMerge("h-[90vh] top-0 w-screen relative", className)}>
 
 			<Swiper {...params} className="w-screen h-screen flex items-center justify-center">
 				{images?.map((image, index) => (
@@ -45,8 +47,8 @@ function HeroSection({ className = "" }) {
 				))}
 			</Swiper>
 
-			<div className="flex absolute top-0 w-screen h-full z-20 items-center justify-center">
-				<h1 className="font-heading text-white font-extrabold text-7xl w-[60%] text-center">
+			<div className="flex flex-col absolute top-0 w-screen h-full z-20 items-center justify-center">
+				<h1 className="font-heading text-white font-extrabold text-7xl w-[60%] mb-[5%] text-center">
 					Affordable <br />
 					Data Analytics Solutions <br />
 					<div className={"mt-3"}>
@@ -65,6 +67,20 @@ function HeroSection({ className = "" }) {
 					</span>
 					</div>
 				</h1>
+
+				<div className="flex gap-4 ">
+					<Link href={"https://forms.gle/38t1zBTXYgWwKZPA6"}>
+						<CustomButton variant={"outlined"} className={"border-white text-white text-xl"}>
+							Book a Consultation
+						</CustomButton>
+					</Link>
+
+					<Link href={"https://forms.gle/wEpyTRTgnGFM6PWc8"}>
+						<CustomButton className={" bg-white text-black font-semibold text-xl"}>
+							Become a Data Fellow
+						</CustomButton>
+					</Link>
+				</div>
 			</div>
 
 

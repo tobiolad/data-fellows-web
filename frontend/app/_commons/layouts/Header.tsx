@@ -61,7 +61,7 @@ function Header({ className = "" }) {
 
 					{/*<ThemeSwitch icon className={"mx-12"}/>*/}
 
-					<Link href={"/#contact"}>
+					<Link href={"https://forms.gle/wEpyTRTgnGFM6PWc8"}>
 						<CustomButton className="bg-white text-black dark:text-black px-4">
 							Become a Data Fellow
 						</CustomButton>
