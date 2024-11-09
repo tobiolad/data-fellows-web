@@ -34,14 +34,14 @@ function Header({ className = "" }) {
 
 
 	return (
-		<div className={`w-full top-0 bg-gray-900/20 absolute z-[1000] ${className}`}>
+		<div className={`w-full top-0 bg-black sticky z-[1000] ${className}`}>
 			<div className=" flex w-full h-[8%] items-center justify-between px-12 py-2  dark:border-gray-900">
 				<Link
 					href="/"
 					className="logo w-[30%] text-3xl font-bold text-black dark:text-white"
 					aria-label="Home Page">
 
-					<Logo className={"w-24 md:w-56"} />
+					<Logo className={"w-24 md:w-24"} />
 				</Link>
 
 				<div className="links hidden w-[40%] gap-8 justify-center text-black  dark:text-white md:flex ">
@@ -60,7 +60,9 @@ function Header({ className = "" }) {
 				<div className="cta justify-end hidden w-[30%] items-center gap-1.5 md:flex">
 
 					{/*<ThemeSwitch icon className={"mx-12"}/>*/}
-
+					<Link className={"text-white mx-4"} href={"/login"}>
+						Login
+					</Link>
 					<Link href={"https://forms.gle/wEpyTRTgnGFM6PWc8"}>
 						<CustomButton className="bg-white text-black dark:text-black px-4">
 							Become a Data Fellow

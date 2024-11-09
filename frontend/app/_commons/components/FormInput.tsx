@@ -16,7 +16,7 @@ type FormInputProps = React.ComponentProps<"input"> & {
 	// onKeyDown?: KeyboardEventHandler<HTMLInputElement>
 }
 
-export const textFieldStyle = `bg-white  my-2  autofill:bg-gray-500 p-4 outline-0 focus:ring-1  ring-secondary transition-200 bg-opacity-20 rounded-lg w-full`
+export const textFieldStyle = `bg-black/20  my-2  autofill:bg-gray-500 p-4 outline-0 focus:ring-1  ring-secondary transition-200 bg-opacity-20 rounded-lg w-full`
 
 const FormInput = (props: FormInputProps) => {
 	const {

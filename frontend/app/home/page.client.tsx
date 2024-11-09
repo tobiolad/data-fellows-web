@@ -1,8 +1,6 @@
 import HeroSection from "@app/home/_views/hero.section"
 import ServicesSection from "@app/home/_views/services.section"
 import HowSection from "@app/home/_views/how.section"
-import FaqSection from "@app/home/_views/faq.section"
-import GetInTouchSection from "@app/home/_views/get-in-touch.section"
 import Cta2Section from "@app/home/_views/cta2.section"
 import MeetClientSection from "@app/home/_views/meet-client.section"
 import WhyChooseSection from "@app/home/_views/why-choose.section"
@@ -28,7 +26,6 @@ export default function HomeClient() {
 			<OurProcessSection className=" mt-[10%]" />
 
 			<Cta2Section className="" />
-
 
 
 		</main>
