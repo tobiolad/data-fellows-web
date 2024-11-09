@@ -6,12 +6,10 @@ import { buildConfig } from "payload/config"
 
 
 import Users from "./collections/Users"
-import Products from "./collections/Products"
 import Media from "./collections/Media"
 import { viteBundler } from "@payloadcms/bundler-vite"
 import Logo from "./components/Logo"
 import Icon from "./components/Icon"
-import Recipes from "./collections/Recipes"
 
 export default buildConfig({
 	admin: {
@@ -20,7 +18,7 @@ export default buildConfig({
 		components: {
 			graphics: {
 				Logo,
-				Icon
+				Icon,
 			},
 		},
 		meta: {
@@ -29,7 +27,7 @@ export default buildConfig({
 	},
 	cors: ["*", "http://localhost:4000", "https://www.datafellows.tech"],
 	editor: slateEditor({}),
-	collections: [Users, Products, Recipes, Media],
+	collections: [Users, Media],
 	typescript: {
 		outputFile: path.resolve(__dirname, "payload-types.ts"),
 	},
