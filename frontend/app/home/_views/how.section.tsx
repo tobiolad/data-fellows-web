@@ -1,6 +1,7 @@
 import { twMerge } from "tailwind-merge"
 import CustomButton from "@components/CustomButton"
 import Heading from "@components/Heading"
+import Link from "next/link"
 
 
 function HowSection({ className = "" }) {
@@ -17,20 +18,28 @@ function HowSection({ className = "" }) {
 				<div className="bg-[#101014] p-[3%] rounded-xl flex-1 aspect-square justify-evenly flex flex-col">
 					<Heading className={"text-white lg:text-4xl"}>Basic Setup</Heading>
 					<img src={"/img/how-images/img_1.png"} className="p-2" />
+					<p className={"text-white w-full text-sm my-2"}>Google Forms | Google Sheet | Power Bi</p>
 					<div className="flex flex-row gap-x-4">
-						<CustomButton className={"text-white border-white"} variant={"outlined"}>Get
-							Started</CustomButton>
-						<CustomButton className={"text-white"} variant={"text"}>Learn More</CustomButton>
+						<Link href={"https://forms.gle/38t1zBTXYgWwKZPA6"}><CustomButton
+							className={"text-white border-white"} variant={"outlined"}>Get
+							Started</CustomButton></Link>
+						<Link href={"https://forms.gle/38t1zBTXYgWwKZPA6"}><CustomButton className={"text-white"}
+																						 variant={"text"}>Learn
+							More</CustomButton></Link>
 					</div>
 				</div>
 
 				<div className="bg-[#101014] p-[3%] rounded-xl flex-1 aspect-square justify-evenly flex flex-col">
 					<Heading className={"text-white lg:text-4xl"}>Advanced Setup</Heading>
 					<img src={"/img/how-images/img.png"} className="p-2" />
+					<p className={"text-white w-full text-sm my-2"}>Power Bi | Air Table</p>
 					<div className="flex flex-row gap-x-4">
-						<CustomButton className={"text-white border-white"} variant={"outlined"}>Get
-							Started</CustomButton>
-						<CustomButton className={"text-white"} variant={"text"}>Learn More</CustomButton>
+						<Link href={"https://forms.gle/38t1zBTXYgWwKZPA6"}><CustomButton
+							className={"text-white border-white"} variant={"outlined"}>Get
+							Started</CustomButton></Link>
+						<Link href={"https://forms.gle/38t1zBTXYgWwKZPA6"}><CustomButton className={"text-white"}
+																						 variant={"text"}>Learn
+							More</CustomButton></Link>
 					</div>
 				</div>
 

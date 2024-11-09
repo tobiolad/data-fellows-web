@@ -24,12 +24,12 @@ function Cta2Section({ className = "", gradient="95.64deg, #140F0BD2 -0.61%, #85
 				</p>
 
 				<div className="flex gap-4 my-2">
-					<Link href={"/about"}>
+					<Link href={"https://forms.gle/38t1zBTXYgWwKZPA6"}>
 						<CustomButton variant={"outlined"} className={"rounded-[0] border-white text-xl text-white"}>
 							Book a Consultation
 						</CustomButton>
 					</Link>
-					<Link href={"/order"}>
+					<Link href={"https://forms.gle/wEpyTRTgnGFM6PWc8"}>
 						<CustomButton className={"rounded-[0] min-w-[15vw] bg-white text-black font-semibold text-xl"}>
 							Join Now
 						</CustomButton>
