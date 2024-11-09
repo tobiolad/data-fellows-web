@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    font-size: 95%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #00000010;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #374151FF;
+    border-radius: 3px;
+    width: 3px;
+    height: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #552cee;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .hide-scroll-bar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+.swiper-pagination-bullet {
+    background: #fff;
+    margin-top: 400px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ce9000 !important;
+}
+
+
+#feedback-bar{
+    user-select: none;
+}
+
+#feedback-bar .swiper-pagination {
+    bottom: 0px !important;
+    position: relative;
+}
+
+#feedback-bar .swiper-pagination-bullet {
+    background-color: #21384b !important;
+}
+
+#feedback-bar .swiper-pagination {
+    bottom: 0px !important;
+    position: relative;
+}
+
+#feedback-bar .swiper-pagination-bullet {
+    background-color: #21384b !important;
+    opacity: 1;
+}
+
+#feedback-bar .swiper-pagination-bullet-active {
+    background-color: #e8bc56 !important;
+    opacity: 1;
+}
+
+
+.swiper-button-prev:after, .swiper-rtl, .swiper-button-next:after {
+    content: "";
+    color: #e8bc56
+}
+

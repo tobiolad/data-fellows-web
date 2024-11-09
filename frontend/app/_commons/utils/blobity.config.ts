@@ -1,0 +1,20 @@
+export default {
+    licenseKey: "opensource",
+    focusableElementsOffsetX: 5,
+    focusableElementsOffsetY: 5,
+    color: "#A015C221",
+    dotColor: "#BCBCBC",
+    invert: false,
+    focusableElements:
+        "[data-blobity], a:not([data-no-blobity]), h4:not([data-no-blobity]), li:not([data-no-blobity]), button:not([data-no-blobity]), [data-blobity-tooltip]",
+    font: "'Outfit', 'Montserrat','Source Sans Pro',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif",
+    fontSize: 16,
+    fontWeight: 500,
+    borderRadius: "50px",
+    opacity: 0.4,
+    fontColor: "#160623",
+    zIndex: 100,
+    size: 40,
+    radius: 8,
+    magnetic: true,
+};

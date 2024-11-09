@@ -1,0 +1,12 @@
+/*Animating from the bottom*/
+.animated-fill-up:hover,
+.animated-fill-up:focus {
+    color: white;
+    box-shadow: inset 0 -4em 0 0 #f9a825;
+}
+
+/* And from the left*/
+.animated-slide-left:hover,
+.animated-slide-left:focus {
+       box-shadow: inset 6.5em 0 0 0  #f9a825;
+   }

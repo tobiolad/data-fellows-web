@@ -1,0 +1,14 @@
+{
+  "name": "data-fellows",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react-simple-typewriter": "^5.0.1"
+  }
+}
