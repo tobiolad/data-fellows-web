@@ -107,7 +107,7 @@ function Header({ className = "" }) {
 
 							{/*Download button here*/}
 
-							<Link href={"https://forms.gle/wEpyTRTgnGFM6PWc8"} className={"my-8"}>
+							<Link href={"https://forms.gle/wEpyTRTgnGFM6PWc8"} onClick={()=>setMenuClick(false)} className={"my-8"}>
 								<CustomButton className="bg-white text-black dark:text-black px-4">
 									Become a Data Fellow
 								</CustomButton>
