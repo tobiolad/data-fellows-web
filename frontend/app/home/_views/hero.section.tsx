@@ -45,7 +45,7 @@ function HeroSection({ className = "" }) {
 							style={{
 								backgroundImage: `url(${image})`,
 							}}
-							className="bg-red-500 w-screen h-[90vh] bg-cover bg-center" />
+							className="bg-black w-screen h-[90vh] bg-cover bg-center" />
 
 					</SwiperSlide>
 				))}

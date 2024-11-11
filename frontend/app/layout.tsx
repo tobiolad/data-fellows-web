@@ -5,9 +5,9 @@ import Header from "@layouts/Header"
 import FooterLayout from "@components/layouts/Footer.layout"
 
 const site_owner = "Data Fellows"
-const title = "Data Fellows"
-const description = "Data Fellows"
-const OgImage = "/img/cta.png"
+const title = "Data Fellows - Affordable Data Analytics Solutions for Everyone"
+const description = "At Data Fellows, we specialize in crafting affordable, effective data solutions tailored for small business needs."
+const OgImage = "/img/logo.png"
 const site_url = "https://datafellows.tech"
 
 export const metadata: Metadata = {
