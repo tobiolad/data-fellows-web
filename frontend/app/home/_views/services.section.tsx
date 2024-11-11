@@ -15,9 +15,9 @@ function ServicesSection({ className = "" }) {
 
 	return (
 		<div id="services" className={twMerge("flex flex-col mt-[15%] justify-centeritems-center", className)}>
-			<div className="flex flex-col items-center">
+			<div className="flex flex-col px-8 items-center">
 				<Heading className={"text-primary"}>Services We Offer</Heading>
-				<h2 className="text-3xl w-[60%] text-center text-primary-dark dark:text-white my-[5%] leading-normal">
+				<h2 className="text-3xl md:w-[60%] md:text-center text-primary-dark dark:text-white my-[5%] leading-normal">
 					"At Data Fellows, we specialize in
 					<span
 						className={"text-primary font-bold mx-2"}>crafting affordable, effective data solutions</span>

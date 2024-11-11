@@ -42,12 +42,12 @@ function MeetClientSection({ className = "" }) {
 			<div id="#download" className={`w-screen aspect-[6/3] my-[5%] relative`}>
 
 				<div className="bg-black/80 absolute w-full h-full" />
-				<img src="/img/code-mask.png" className="inset-0 right-0 w-screen aspect-[6/3]" alt="cta2-bg" />
+				<img src="/img/code-mask.png" className="inset-0 right-0 w-screen aspect-[4/5] md:aspect-[6/3]" alt="cta2-bg" />
 
 				<div
 					className="absolute z-50 w-full flex flex-col items-center justify-center top-0 bottom-0  left-0 right-0">
 
-					<div className="w-full grid grid-cols-2">
+					<div className="w-full grid grid-cols-1 md:grid-cols-2">
 						{features.map((feature, index) => <FeatureItem key={index} feature={feature} />)}
 					</div>
 

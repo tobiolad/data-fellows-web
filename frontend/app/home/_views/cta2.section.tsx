@@ -16,14 +16,14 @@ function Cta2Section({ className = "", gradient="95.64deg, #140F0BD2 -0.61%, #85
 			<img src="/img/model.png" className="inset-0 w-[30%] aspect-square object-cover" alt="cta2-bg" />
 
 			<div className="absolute flex flex-col px-[10%] md:items-center justify-center left-0 top-0 right-0 bottom-0 ">
-				<h2 className={"text-xl md:text-4xl text-center font-bold text-white font-syne"}>
+				<h2 className={"text-xl md:text-4xl md:text-center font-bold text-white font-syne"}>
 					Want to become a Data Fellow?
 				</h2>
 				<p className={"max-w-[60%] md:text-center  text-white my-2"}>
 					Join a thriving community of data professionals making a difference.
 				</p>
 
-				<div className="flex gap-4 my-2">
+				<div className="flex flex-col md:flex-row gap-4 my-2">
 					<Link href={"https://forms.gle/38t1zBTXYgWwKZPA6"}>
 						<CustomButton variant={"outlined"} className={"rounded-[0] border-white text-xl text-white"}>
 							Book a Consultation

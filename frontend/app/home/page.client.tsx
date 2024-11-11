@@ -5,6 +5,7 @@ import Cta2Section from "@app/home/_views/cta2.section"
 import MeetClientSection from "@app/home/_views/meet-client.section"
 import WhyChooseSection from "@app/home/_views/why-choose.section"
 import OurProcessSection from "@app/home/_views/our-process.section"
+import PricingSection from "@app/home/_views/pricing.section"
 
 
 export default function HomeClient() {
@@ -22,6 +23,8 @@ export default function HomeClient() {
 			<MeetClientSection className=" mt-[10%]" />
 
 			<WhyChooseSection className=" mt-[10%]" />
+
+			<PricingSection className=" mt-[10%]" />
 
 			<OurProcessSection className=" mt-[10%]" />
 

@@ -43,7 +43,7 @@ function MeetClientSection({ className = "" }) {
 				<p className="mt-2">Read testimonials from our customers</p>
 			</div>
 
-			<div className="grid grid-cols-2 justify-center gap-x-3 my-[5%] items-center w-full h-full">
+			<div className="grid grid-cols-1 md:grid-cols-2 justify-center gap-y-12 md:gap-3 my-[5%] items-center w-full h-full">
 
 				{feedbacks.map((feedback, index) => (
 					<div key={index} className="flex flex-col gap-y-4 px-4 my-4">
