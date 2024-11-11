@@ -80,7 +80,7 @@ function Header({ className = "" }) {
 
 			{/* Mobile Nav */}
 			<div
-				className={`fixed left-0 top-[8%] z-[400] flex w-full border-b dark:border-gray-900 dark:bg-bg-dark-50 md:hidden ${
+				className={`fixed left-0 top-[15%] z-[400] flex w-full border-b dark:border-gray-900 dark:bg-bg-dark-50 md:hidden ${
 					menuClick ? "flex" : "hidden"
 				}`}>
 				<div
@@ -113,7 +113,7 @@ function Header({ className = "" }) {
 								</CustomButton>
 							</Link>
 
-							<Link href={"/login"} className={"my-8"}>
+							<Link href={"/login"} onClick={()=>setMenuClick(false)} className={"my-8"}>
 								<CustomButton className="bg-white text-black dark:text-black px-4">
 									Login
 								</CustomButton>
