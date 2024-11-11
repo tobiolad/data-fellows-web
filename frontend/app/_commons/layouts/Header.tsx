@@ -73,7 +73,7 @@ function Header({ className = "" }) {
 				</div>
 
 				<MenuIcon
-					className="h-6 w-6 cursor-pointer text-3xl text-primary-dark dark:text-white dark:text-primary-dark dark:text-white md:hidden"
+					className="h-6 w-6 cursor-pointer text-3xl text-white md:hidden"
 					onClick={() => setMenuClick(!menuClick)}
 				/>
 			</div>
@@ -107,9 +107,15 @@ function Header({ className = "" }) {
 
 							{/*Download button here*/}
 
-							<Link href={"/#contact"} className={"my-8"}>
+							<Link href={"https://forms.gle/wEpyTRTgnGFM6PWc8"} className={"my-8"}>
 								<CustomButton className="bg-white text-black dark:text-black px-4">
-									Contact Us
+									Become a Data Fellow
+								</CustomButton>
+							</Link>
+
+							<Link href={"/login"} className={"my-8"}>
+								<CustomButton className="bg-white text-black dark:text-black px-4">
+									Login
 								</CustomButton>
 							</Link>
 

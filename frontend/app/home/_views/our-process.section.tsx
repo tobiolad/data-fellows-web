@@ -5,7 +5,7 @@ import Heading from "@components/Heading"
 function OurProcessSection({ className = "" }) {
 
 	return (
-		<div id="#download"
+		<div id="process"
 			 className={twMerge("w-full flex flex-col px-[5%] items-center justify-center", className)}>
 
 			<Heading className={"md:text-6xl text-primary"}>Our Process - How it Works</Heading>

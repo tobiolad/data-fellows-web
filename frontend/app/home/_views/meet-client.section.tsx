@@ -32,7 +32,7 @@ function MeetClientSection({ className = "" }) {
 	]
 
 	return (
-		<div id="#download"
+		<div id="testimonials"
 			 className={twMerge("w-full flex flex-col px-[5%] items-center justify-center", className)}>
 
 			<Heading className={"md:text-6xl text-primary"}>Meet Some of Our Clients</Heading>

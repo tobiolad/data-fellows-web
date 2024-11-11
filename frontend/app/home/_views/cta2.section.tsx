@@ -29,7 +29,7 @@ function Cta2Section({ className = "", gradient="95.64deg, #140F0BD2 -0.61%, #85
 							Book a Consultation
 						</CustomButton>
 					</Link>
-					<Link href={"https://forms.gle/wEpyTRTgnGFM6PWc8"}>
+					<Link href={"https://forms.gle/S81bo1aotAnZ9en36"}>
 						<CustomButton className={"rounded-[0] min-w-[15vw] bg-white text-black font-semibold text-xl"}>
 							Join Now
 						</CustomButton>

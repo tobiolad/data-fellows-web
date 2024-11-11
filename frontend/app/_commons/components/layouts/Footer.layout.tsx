@@ -4,7 +4,7 @@ import { PiInstagramLogo, PiLinkedinLogo, PiTwitterLogo } from "react-icons/pi"
 import Logo from "@components/Logo"
 import Link from "next/link"
 import { MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid"
-import { MailIcon } from "lucide-react"
+import { MailIcon, YoutubeIcon } from "lucide-react"
 import CustomButton from "@components/CustomButton"
 import { useForm } from "react-hook-form"
 
@@ -14,17 +14,22 @@ function FooterSection({}) {
 		{
 			name: "Instagram",
 			icon: <PiInstagramLogo className={"w-8 h-8 text-white"} />,
-			link: "https://www.instagram.com",
+			link: "https://www.instagram.com/data.fellows/",
 		},
 		{
 			name: "LinkedIn",
 			icon: <PiLinkedinLogo className={"w-8 h-8 text-white"} />,
-			link: "https://linkedin.com",
+			link: "https://www.linkedin.com/company/the-data-fellow/",
 		},
 		{
 			name: "Twitter",
 			icon: <PiTwitterLogo className={"w-8 h-8 text-white"} />,
-			link: "https://x.com",
+			link: "https://x.com/DatafellowsInfo",
+		},
+		{
+			name: "Youtube",
+			icon: <YoutubeIcon className={"w-8 h-8 text-white"} />,
+			link: "https://www.youtube.com/@DataFellows",
 		},
 	]
 

@@ -29,11 +29,11 @@ function MeetClientSection({ className = "" }) {
 			title: "Eliminates the Need for Technical Expertise",
 			description: "We handle the complexity, so you don’t have to.",
 			icon: FeatureIcon4,
-		}
+		},
 	]
 
 	return (
-		<div id="#download"
+		<div id="why"
 			 className={twMerge("w-full flex flex-col px-[5%] items-center justify-center", className)}>
 
 			<Heading className={"md:text-6xl text-primary"}>Why Choose Us</Heading>
@@ -41,17 +41,16 @@ function MeetClientSection({ className = "" }) {
 
 			<div id="#download" className={`w-screen aspect-[6/3] my-[5%] relative`}>
 
-				<div className="bg-black/80 absolute w-full h-full" />
-				<img src="/img/code-mask.png" className="inset-0 right-0 w-screen aspect-[4/5] md:aspect-[6/3]" alt="cta2-bg" />
 
 				<div
-					className="absolute z-50 w-full flex flex-col items-center justify-center top-0 bottom-0  left-0 right-0">
-
-					<div className="w-full grid grid-cols-1 md:grid-cols-2">
-						{features.map((feature, index) => <FeatureItem key={index} feature={feature} />)}
-					</div>
-
+					style={{
+						//add black overlay to image
+						backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/img/code-mask.png')`,
+					}}
+					className="bg-cover bg-center w-full h-full grid grid-cols-1 md:grid-cols-2 py-8">
+					{features.map((feature, index) => <FeatureItem key={index} feature={feature} />)}
 				</div>
+
 
 			</div>
 		</div>

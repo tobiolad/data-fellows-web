@@ -8,7 +8,7 @@ function HowSection({ className = "" }) {
 
 
 	return (
-		<div id="#download"
+		<div id="how"
 			 className={twMerge("w-full flex flex-col px-[5%]", className)}>
 
 			<Heading className={"md:text-5xl text-xl"}>How we make it happen</Heading>

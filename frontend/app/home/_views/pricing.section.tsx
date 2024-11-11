@@ -39,7 +39,7 @@ function PricingSection({ className = "" }) {
 	]
 
 	return (
-		<div id="#download"
+		<div id="pricing"
 			 className={twMerge("w-full flex flex-col px-[5%] items-center justify-center", className)}>
 
 			<p className="mt-2 text-gray-500">Discover</p>
