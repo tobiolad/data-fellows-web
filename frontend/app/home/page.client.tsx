@@ -17,8 +17,7 @@ export default function HomeClient() {
 			<HeroSection />
 
 			<ServicesSection className="" />
-
-			<HowSection className=" mt-[10%]" />
+			{/*<HowSection className=" mt-[10%]" />*/}
 
 			<MeetClientSection className=" mt-[10%]" />
 
