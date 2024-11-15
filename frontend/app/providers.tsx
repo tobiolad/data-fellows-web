@@ -30,6 +30,9 @@ const Providers = ({ children }) => {
 	return (
 		<QueryClientProvider client={queryClient}>
 			<html lang="en" className={darkMode ? "dark" : ""}>
+			<head>
+				<link rel="icon" href="/favicon.png" />
+			</head>
 			<body
 				className={"font-sans text-primary-dark dark:text-white text-text-base dark:text-text-base-dark"}>
 			<Toaster position={"top-right"} />
