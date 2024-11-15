@@ -13,7 +13,7 @@ function PricingSection({ className = "" }) {
 			features: [
 				"Single industry-specific dashboard.",
 				"Basic monthly data reports.",
-				"No consulting support.",
+				"Monthly consulting support.",
 			],
 		},
 		{

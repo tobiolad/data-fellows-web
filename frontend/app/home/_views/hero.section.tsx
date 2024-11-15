@@ -52,7 +52,7 @@ function HeroSection({ className = "" }) {
 			</Swiper>
 
 			<div className="flex flex-col absolute top-0 w-screen h-full z-20 items-center justify-center">
-				<h1 className="font-heading text-white font-extrabold text-7xl md:w-[60%] mb-[5%] text-center">
+				<h1 className="font-heading text-white font-extrabold text-7xl px-12 md:px-0 md:w-[60%] mb-[5%] text-center">
 					Affordable <br />
 					Data Analytics Solutions <br />
 					<div className={"mt-3"}>
@@ -72,15 +72,15 @@ function HeroSection({ className = "" }) {
 					</div>
 				</h1>
 
-				<div className="flex gap-4 ">
-					<Link href={"https://forms.gle/38t1zBTXYgWwKZPA6"}>
-						<CustomButton variant={"outlined"} className={"border-white text-white text-xl"}>
+				<div className="flex gap-4 w-[80%] flex-col md:flex-row items-center justify-center">
+					<Link className={"w-full md:w-fit"} href={"https://forms.gle/38t1zBTXYgWwKZPA6"}>
+						<CustomButton variant={"outlined"} className={"w-full md:w-fit border-white text-white text-xl"}>
 							Book a Consultation
 						</CustomButton>
 					</Link>
 
-					<Link href={"https://forms.gle/wEpyTRTgnGFM6PWc8"}>
-						<CustomButton className={" bg-white text-black font-semibold text-xl"}>
+					<Link className={"w-full md:w-fit"} href={"https://forms.gle/wEpyTRTgnGFM6PWc8"}>
+						<CustomButton className={"w-full md:w-fit bg-white text-black font-semibold text-xl"}>
 							Become a Data Fellow
 						</CustomButton>
 					</Link>
