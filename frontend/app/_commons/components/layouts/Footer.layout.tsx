@@ -84,13 +84,13 @@ function FooterSection({}) {
 			</div>
 
 			<form onSubmit={handleSubmit(openMail)}
-				  className="bg-gray-500 mt-[5%] my-4 w-full md:w-[80%] rounded-xl md:h-[10vh] px-4 py-2 md:py-6 items-center justify-between relative flex flex-col md:flex-row">
+				  className="bg-gray-500 mt-[5%] my-4 w-full md:w-[80%] rounded-xl md:h-[10vh] px-4  py-2 md:py-6 items-center justify-between relative flex flex-col md:flex-row">
 				<p className={"font-heading font-bold text-xl mb-2 md:mb-0"}>Get in Touch</p>
 				<input
 					{...register("message")}
 					placeholder={"Send us a message"}
 					className="bg-white rounded-lg mx-4 p-4 w-full md:w-[80%]" />
-				<CustomButton className={"w-full md:w-fit md:absolute my-2 md:my-0 md:right-[7%] "}>Submit</CustomButton>
+				<CustomButton className={"w-full md:w-fit md:absolute my-2 md:my-0 md:right-[4%]"}>Submit</CustomButton>
 			</form>
 		</section>
 
